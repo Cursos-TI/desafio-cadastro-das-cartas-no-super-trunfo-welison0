@@ -32,7 +32,8 @@ printf("Digite o Estado: ");
     printf("Digite Numero de Pontos turisticos: ");
     scanf("%d", &Ponto);
 
-   
+    printf("\n--- INFORMAÇÕES DIGITADAS ---\n");
+
     printf("Estado: %s\n", Estado);
     printf("Cidade: %s\n", Cidade);
     printf("Codigo: %s\n", Codigo);
