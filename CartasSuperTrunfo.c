@@ -96,7 +96,7 @@ int main() {
 
      //comparação 
   printf("\n--- Comparação ---\n");                                                //comparação de resultados
-  printf("Populacao: carta 1 venceu (%.lu)\n", Populacao > Populacao2);
+  printf("Populacao: carta 1 venceu (%d)\n", Populacao > Populacao2);
   printf("area: carta 1 venceu(%d)\n", Area > Area2);
   printf("pib: carta 1 venceu (%d)\n", pibTotal > pibTotal2);
   printf("pontos turisticos: carta 1 venceu (%d)\n", Ponto > Ponto2);
@@ -141,8 +141,8 @@ int main() {
 
 //comparação (if_else)                                                                    //variaveis: if_else adicionadas
     printf("\n--- Comparação (população) ---\n");
-    printf("carta 1 - %s (%s): %d População\n", Cidade, Estado, densidadePopulacao);
-    printf("carta 2 - %s (%s): %d População\n", Cidade2, Estado2, densidadePopulacao2); 
+    printf("carta 1 - %s (%s): %lu População\n", Cidade, Estado, densidadePopulacao);
+    printf("carta 2 - %s (%s): %lu População\n", Cidade2, Estado2, densidadePopulacao2); 
 
     if(Populacao > Populacao2){
       printf("\nresultado: carta 1 (%s) venceu!\n", Cidade);
